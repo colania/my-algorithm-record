@@ -11,7 +11,7 @@ import java.util.List;
 public class Subsets78 {
 
 
-    List<List<Integer>> res = new ArrayList<>();
+    public static List<List<Integer>> res = new ArrayList<>();
 
     public static List<List<Integer>> subsets(int[] nums) {
         recall(nums, 0, new ArrayList<>());

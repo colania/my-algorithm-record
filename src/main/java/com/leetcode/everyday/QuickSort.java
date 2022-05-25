@@ -9,6 +9,35 @@ import java.util.Arrays;
  */
 public class QuickSort {
 
+    public static void quickSort2(int[] arr, int startIndex, int endIndex) {
+        if (startIndex < endIndex) {
+            int index = partition2(arr, startIndex, endIndex);
+            partition2(arr, startIndex, index - 1);
+            partition2(arr, index + 1, endIndex);
+        }
+    }
+
+    private static int partition2(int[] arr, int startIndex, int endIndex) {
+        int pivot = arr[startIndex];
+        int left = startIndex;
+        int right = endIndex;
+        while (left != right) {
+            while (left < right && pivot < arr[right]) {
+                right--;
+            }
+            while (left < right && pivot >= arr[left]) {
+                left++;
+            }
+            //找到left比基准大，right比基准小，进行交换
+            if (left < right) {
+                swap(arr, left, right);
+            }
+        }
+        swap(arr, startIndex, left);
+        return left;
+    }
+
+
     public static void quickSort(int[] arr, int startIndex, int endIndex) {
         if (startIndex < endIndex) {
             //找出基准
@@ -49,8 +78,10 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] a = {1,1,2,0,2,1,0,0};
+        int[] a = {1, 1, 2, 0, 2, 1, 0, 0};
         quickSort(a, 0, a.length - 1);
         System.out.println(Arrays.toString(a));
     }
+
+
 }

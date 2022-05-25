@@ -26,9 +26,9 @@ public class binaryTree {
         if (root == null) {
             return "0";
         }
-        String left = traverse(root.getLeft());
-        String right = traverse(root.getRight());
-        String subTree = left + "," + right + root.getValue();
+        String left = traverse(root.left);
+        String right = traverse(root.right);
+        String subTree = left + "," + right + root.value;
         Integer orDefault = memo.getOrDefault(subTree, 0);
         if (orDefault == 1) {
             res.add(root);
