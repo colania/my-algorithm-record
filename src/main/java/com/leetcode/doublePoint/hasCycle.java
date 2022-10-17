@@ -1,4 +1,4 @@
-package main.java.com.leetcode.doublePoint;
+package com.leetcode.doublePoint;
 
 public class hasCycle {
 }

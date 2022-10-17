@@ -1,4 +1,4 @@
-package main.java.com.leetcode.binaryTree;
+package com.leetcode.binaryTree;
 
 /**
  * @author wwei

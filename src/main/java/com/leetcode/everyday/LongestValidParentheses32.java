@@ -1,4 +1,4 @@
-package main.java.com.leetcode.everyday;
+package com.leetcode.everyday;
 
 import java.util.Deque;
 import java.util.LinkedList;

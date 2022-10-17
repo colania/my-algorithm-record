@@ -1,4 +1,4 @@
-package main.java.com.leetcode;//package com.leetcode;
+package com.leetcode;//package com.leetcode;
 //
 //import com.example.leecode.leecode2.TreeNode;
 //

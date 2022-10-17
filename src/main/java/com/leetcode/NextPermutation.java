@@ -1,4 +1,4 @@
-package main.java.com.leetcode;
+package com.leetcode;
 
 import java.util.*;
 import java.util.concurrent.locks.Condition;

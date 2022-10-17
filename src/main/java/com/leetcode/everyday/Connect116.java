@@ -1,7 +1,7 @@
-//package main.java.com.leetcode.everyday;
+//package com.leetcode.everyday;
 //
-//import main.java.com.leetcode.binaryTree.NextNode;
-//import main.java.com.leetcode.leecode2.*;
+//import com.leetcode.binaryTree.NextNode;
+//import com.leetcode.leecode2.*;
 //
 //import java.util.*;
 //

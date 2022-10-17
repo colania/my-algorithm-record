@@ -1,4 +1,4 @@
-package main.java.com.leetcode.everyday;
+package com.leetcode.everyday;
 
 import com.sun.xml.internal.ws.policy.PolicyMapUtil;
 

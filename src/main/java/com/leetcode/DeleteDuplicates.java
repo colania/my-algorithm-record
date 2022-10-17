@@ -1,4 +1,4 @@
-package main.java.com.leetcode;
+package com.leetcode;
 
 
 /**

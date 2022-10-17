@@ -1,4 +1,4 @@
-package main.java.com.leetcode.dp;
+package com.leetcode.dp;
 
 import java.util.Arrays;
 

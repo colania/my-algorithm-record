@@ -1,6 +1,6 @@
-package main.java.com.leetcode.everyday;
+package com.leetcode.everyday;
 
-import main.java.com.leetcode.leecode2.ListNode;
+import com.leetcode.leecode2.ListNode;
 
 /**
  * @description:

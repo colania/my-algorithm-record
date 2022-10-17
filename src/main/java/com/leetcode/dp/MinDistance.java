@@ -1,4 +1,4 @@
-package main.java.com.leetcode.dp;
+package com.leetcode.dp;
 
 /**
  * 72. 编辑距离

@@ -1,4 +1,4 @@
-package main.java.com.leetcode.binaryTree;
+package com.leetcode.binaryTree;
 
 import java.util.HashMap;
 import java.util.LinkedList;
